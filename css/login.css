@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #d8c8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.contenedor {
+  width: 1000px;
+  height: 570px;
+  display: flex;
+  background: white;
+  overflow: hidden;
+}
+
+.panel-login {
+  width: 42%;
+  background: #ffffff;
+  padding: 40px 35px;
+  display: flex;
+  align-items: center;
+}
+
+.formulario-login {
+  width: 100%;
+}
+
+.formulario-login label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.formulario-login input[type="email"],
+.formulario-login input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.encabezado-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.encabezado-password a {
+  font-size: 14px;
+  color: #8d63d9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.recordarme {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #555;
+}
+
+.formulario-login button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background: #7c52cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.separador {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.separador span {
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.separador p {
+  font-size: 14px;
+  color: #777;
+}
+
+
+
+.registro h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.registro p {
+  font-size: 15px;
+  color: #555;
+}
+
+.registro a {
+  color: #7c52cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.panel-bienvenida {
+  width: 50%;
+  background: #8d63d9;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 60px 40px;
+}
+
+.contenido-bienvenida h1 {
+  font-size: 60px;
+  line-height: 1;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contenido-bienvenida p {
+  color: white;
+  font-size: 18px;
+}
