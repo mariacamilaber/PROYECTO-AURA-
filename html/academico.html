@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Estudiantil</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="encabezado">
+            <h1>Formulario de Caracterización Estudiantil</h1>
+            <p>RF03 y RF04: Acceso y registro de datos</p>
+        </div>
+
+        <div class="pasos">
+
+            <div class="paso activo">
+                <div class="circulo">✓</div>
+                <span>Datos Personales</span>
+            </div>
+
+            <div class="paso">
+                <div class="circulo">📊</div>
+                <span>Información Académica</span>
+            </div>
+
+            <div class="paso">
+                <div class="circulo">💼</div>
+                <span>Situación Socioeconómica</span>
+            </div>
+
+            <div class="paso">
+                <div class="circulo">🧠</div>
+                <span>Aspectos Psicosociales</span>
+            </div>
+
+            <div class="paso">
+                <div class="circulo">🩺</div>
+                <span>Salud y Bienestar</span>
+            </div>
+
+        </div>
+
+        <div class="formulario">
+
+            <h2>Información Académica</h2>
+
+            <form>
+
+                <label>Programa Académico *</label>
+                <input type="text" placeholder="Ej: Ingeniería de Sistemas">
+
+                <div class="fila">
+
+                    <div class="grupo">
+                        <label>Semestre Actual *</label>
+                        <select>
+                            <option>Seleccione</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo">
+                        <label>Promedio Académico *</label>
+                        <input type="text" placeholder="0.0 - 5.0">
+                    </div>
+
+                </div>
+
+                <label>Porcentaje de Asistencia *</label>
+                <select>
+                    <option>Seleccione</option>
+                    <option>50%</option>
+                    <option>70%</option>
+                    <option>90%</option>
+                    <option>100%</option>
+                </select>
+
+                <label>Horas de Estudio Diarias *</label>
+                <select>
+                    <option>Seleccione</option>
+                    <option>1 Hora</option>
+                    <option>2 Horas</option>
+                    <option>3 Horas</option>
+                    <option>4+ Horas</option>
+                </select>
+
+                <div class="botones">
+                    <button type="button" class="anterior">Anterior</button>
+                    <button type="submit" class="siguiente">Siguiente</button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
