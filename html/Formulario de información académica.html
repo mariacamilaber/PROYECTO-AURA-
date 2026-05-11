@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Estudiantil</title>
+
+    <link rel="stylesheet" href="/Style.css/Style.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+        
+    <div class="top">
+
+        <div class="titulo-logo">
+
+            <div>
+                <h1>Formulario de Caracterización Estudiantil</h1>
+                <p>RF03 y RF04: Acceso y registro de datos</p>
+            </div>
+
+            <img src="/Imágenes/Blanco_Mesa de trabajo 1.png" class="logo">
+
+        </div>
+
+</div>
+
+        <!-- PASOS -->
+        <div class="steps">
+
+            <div class="step active">
+                <div class="circle green">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <span>Datos Personales</span>
+            </div>
+
+            <div class="step">
+                <div class="circle blue">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+                <span>Información Académica</span>
+            </div>
+
+            <div class="step">
+                <div class="circle gray">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <span>Situación Socioeconómica</span>
+            </div>
+
+            <div class="step">
+                <div class="circle pink">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <span>Aspectos Psicosociales</span>
+            </div>
+
+            <div class="step">
+                <div class="circle gray">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <span>Salud y Bienestar</span>
+            </div>
+
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="contenido">
+
+            <h2>Información Académica</h2>
+
+            <form>
+
+                <div class="grupo">
+                    <label>Programa Académico *</label>
+                    <input type="text" placeholder="Ej: Ingeniería de Sistemas">
+                </div>
+
+                <div class="fila">
+
+                    <div class="grupo">
+                        <label>Semestre Actual *</label>
+
+                        <select>
+                            <option>Seleccione</option>
+                            <option>1° Semestre</option>
+                            <option>2° Semestre</option>
+                            <option>3° Semestre</option>
+                            <option>4° Semestre</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo">
+                        <label>Promedio Académico *</label>
+                        <input type="text" placeholder="Ej: 0.0 - 5.0">  <!-- Con esto se pone un mensaje en la casilla-->
+                    </div>
+
+                </div>
+
+                <div class="grupo">
+                    <label>Porcentaje de Asistencia *</label>
+
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Menos del 50%</option>
+                        <option>50% - 70%</option>
+                        <option>70% - 90%</option>
+                        <option>Más del 90%</option>
+                        <option>Nunca falto</option>
+                    </select>
+                </div>
+
+                <div class="grupo">
+                    <label>Horas de Estudio Diarias *</label>
+
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Menos de 1 hora</option>
+                        <option>1 - 2 horas</option>
+                        <option>2 - 3 horas</option>
+                        <option>Más de 3 horas</option>
+                    </select>
+                </div>
+
+                <!-- BOTONES -->
+
+                <div class="botones">
+
+                    <button class="btn-anterior">
+                        Anterior
+                    </button>
+
+                    <button class="btn-siguiente">
+                        Siguiente
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
