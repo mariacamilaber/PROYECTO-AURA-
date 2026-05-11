@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #ffffff; /* Color del fondo de la página */
+    padding: 40px;
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    background: white; /* Color del fondo del formulario */
+    margin: auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Acá se aplica el degradado */
+
+.top{
+    background: linear-gradient(to right, #5b2cff, #c100ff);
+    color: rgb(255, 255, 255); /* Color del "Formulario de Caracterización Estudiantil
+RF03 y RF04: Acceso y registro de datos */
+    padding: 20px 25px;
+}
+
+.top h1{
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.top p{
+    font-size: 14px;
+}
+
+/* STEPS */
+
+.steps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+/*Color letras-Titulo de iconos*/
+.step span{
+    font-size: 13px;
+    color: #777;
+}
+
+/* CIRCULOS */
+
+.circle{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.green{
+    background: #e6f8ea;
+    color: #2bbf5f;
+}
+
+.blue{
+    background: #eef0ff;
+    color: #5563ff;
+}
+
+/*Color del icono economia y salud*/
+.gray{
+    background: #f3f3f3;
+    color: #001eff;
+}
+
+/*Color del icono aspectos psicosociales*/
+.pink{
+    background: #ffeaf5;
+    color: #ff00c8;
+}
+
+/* CONTENIDO */
+
+.contenido{
+    padding: 30px 22px;
+}
+
+.contenido h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #222;
+}
+
+/* INPUTS */
+
+.grupo{
+    margin-bottom: 22px;
+}
+
+.grupo label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+.grupo input,
+.grupo select{
+    width: 100%;
+    height: 52px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #555;
+    background: white;
+    outline: none;
+}
+
+.grupo input:focus,
+.grupo select:focus{
+    border-color: #7d4dff;
+}
+
+/* FILAS */
+
+.fila{
+    display: flex;
+    gap: 18px;
+}
+
+.fila .grupo{
+    width: 50%;
+}
+
+/* BOTONES */
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.btn-anterior{
+    width: 120px;
+    height: 50px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-siguiente{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background: #5b2cff;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN*/
+
+@media(max-width:900px){
+
+    .steps{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .step{
+        width: 45%;
+    }
+
+    .fila{
+        flex-direction: column;
+    }
+
+    .fila .grupo{
+        width: 100%;
+    }
+
+}
+
+.titulo-logo{
+    display: flex;
+    align-items: space-between;
+        align-items: center;
+}
+
+.logo{
+    left: 10px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-bottom: -00px;
+}
