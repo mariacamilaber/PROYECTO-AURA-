@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Caracterización Estudiantil</title>
+
+
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/personales.css">
+</head>
+
+<body>
+
+    <!-- Caja principal -->
+    <div class="caja-principal">
+
+        <!-- Parte superior con el título -->
+        <header class="parte-superior">
+            <a href="#" class="boton-volver">← Volver</a>
+
+            <!-- Logo de AURA -->
+            <img src="../img/logo.png" alt="Logo de AURA" class="logo-aura">
+
+            <h1>Formulario de Caracterización Estudiantil</h1>
+
+        </header>
+
+
+        <section class="menu-secciones">
+
+
+            <div class="seccion-menu seccion-activa">
+                <div class="circulo-icono">
+                    <i class="bx bx-user"></i>
+                </div>
+                <p>Datos Personales</p>
+            </div>
+
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-book-open"></i>
+                </div>
+                <p>Información Académica</p>
+            </div>
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-briefcase"></i>
+                </div>
+                <p>Situación Socioeconómica</p>
+            </div>
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-brain"></i>
+                </div>
+                <p>Aspectos Psicosociales</p>
+            </div>
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-first-aid"></i>
+                </div>
+                <p>Salud y Bienestar</p>
+            </div>
+
+        </section>
+
+        <!-- Formulario -->
+        <section class="seccion-formulario">
+
+            <h2>Datos Personales</h2>
+
+
+            <label for="nombre">Nombre Completo *</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre completo">
+
+
+            <label for="identificacion">Número de Identificación *</label>
+            <input type="text" id="identificacion" placeholder="Ingrese su número de identificación">
+
+
+            <div class="fila-campos">
+
+                <div class="campo-formulario">
+                    <label for="edad">Edad *</label>
+                    <input type="number" id="edad" placeholder="Edad">
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="genero">Género *</label>
+                    <select id="genero">
+                        <option>Seleccione</option>
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Botones de navegación -->
+        <section class="seccion-botones">
+            <button class="boton-anterior" disabled>Anterior</button>
+            <button class="boton-siguiente">Siguiente</button>
+        </section>
+
+
+
+</body>
+
+</html>
