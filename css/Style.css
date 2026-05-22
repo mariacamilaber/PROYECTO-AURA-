@@ -19,6 +19,7 @@ body{
     margin: auto;
     border-radius: 4px;
     overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(151, 123, 228, 0.781);
 }
 
 /* Acá se aplica el degradado */
@@ -32,7 +33,7 @@ RF03 y RF04: Acceso y registro de datos */
 
 .top h1{
     font-size: 34px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .top p{
@@ -74,6 +75,7 @@ RF03 y RF04: Acceso y registro de datos */
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    box-shadow: 0px 4px 10px rgba(151, 123, 228, 0.781);
 }
 
 .green{
@@ -102,6 +104,7 @@ RF03 y RF04: Acceso y registro de datos */
 
 .contenido{
     padding: 30px 22px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
 
 .contenido h2{
@@ -169,6 +172,7 @@ RF03 y RF04: Acceso y registro de datos */
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(151, 123, 228, 0.781);
 }
 
 .btn-siguiente{
@@ -180,6 +184,8 @@ RF03 y RF04: Acceso y registro de datos */
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(151, 123, 228, 0.781);
+    transition: 0.3s;
 }
 
 /* RESPONSIVE DESIGN*/
@@ -192,7 +198,7 @@ RF03 y RF04: Acceso y registro de datos */
     }
 
     .step{
-        width: 45%;
+        width: 40%;
     }
 
     .fila{
@@ -200,7 +206,7 @@ RF03 y RF04: Acceso y registro de datos */
     }
 
     .fila .grupo{
-        width: 100%;
+        width: 95%;
     }
 
 }
@@ -217,4 +223,9 @@ RF03 y RF04: Acceso y registro de datos */
     height: 90px;
     object-fit: cover;
     margin-bottom: -00px;
+}
+
+.btn:hover{
+    background: rgb(255, 0, 170);
+    transform: scale(1.05);
 }
