@@ -17,15 +17,25 @@ body {
 
 /* Parte superior con degradado */
 .parte-superior {
+<<<<<<< HEAD
+    background: linear-gradient(to right, #C9BEFF);
+    color: black;
+    padding: 10px 10px;
+=======
     background: linear-gradient(to right,#c9beff);
     color: black;
     padding: 25px 30px;
+>>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
     text-align: center;
 }
 
 /* Enlace Volver */
 .boton-volver {
+<<<<<<< HEAD
+       color: white;
+=======
     color: #240520;
+>>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
     text-decoration: none;
     font-weight: bold;
     float: left;
@@ -34,7 +44,11 @@ body {
 .logo-aura {
     width: 250px;
     display: block;
+<<<<<<< HEAD
+    margin: 0 auto 5px auto;
+=======
     margin: 10px auto 20px auto;
+>>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
 }
 
 /* Título principal */
@@ -163,4 +177,8 @@ body {
     padding: 20px;
     color: #6b7280;
     font-size: 14px;
+<<<<<<< HEAD
+}
+=======
 }   
+>>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
