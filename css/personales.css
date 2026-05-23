@@ -4,8 +4,6 @@ body {
     margin: 0;
     padding: 30px;
 }
-
-/* Caja principal blanca */
 .caja-principal {
     max-width: 1200px;
     margin: auto;
@@ -14,28 +12,14 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-
-/* Parte superior con degradado */
 .parte-superior {
-<<<<<<< HEAD
-    background: linear-gradient(to right, #C9BEFF);
-    color: black;
-    padding: 10px 10px;
-=======
     background: linear-gradient(to right,#c9beff);
     color: black;
     padding: 25px 30px;
->>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
     text-align: center;
 }
-
-/* Enlace Volver */
 .boton-volver {
-<<<<<<< HEAD
-       color: white;
-=======
     color: #240520;
->>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
     text-decoration: none;
     font-weight: bold;
     float: left;
@@ -44,26 +28,19 @@ body {
 .logo-aura {
     width: 250px;
     display: block;
-<<<<<<< HEAD
-    margin: 0 auto 5px auto;
-=======
     margin: 10px auto 20px auto;
->>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
 }
 
-/* Título principal */
 .parte-superior h1 {
     margin: 0;
     font-size: 42px;
 }
 
-/* Subtítulo */
 .parte-superior p {
     margin-top: 10px;
     font-size: 24px;
 }
 
-/* Menú de secciones */
 .menu-secciones {
     display: flex;
     justify-content: space-around;
@@ -72,19 +49,16 @@ body {
     text-align: center;
 }
 
-/* Cada opción del menú */
 .seccion-menu {
     flex: 1;
     color: #888;
     font-size: 14px;
 }
 
-/* Opción activa */
 .seccion-activa {
     color: #4f46e5;
 }
 
-/* Círculo del icono */
 .circulo-icono {
     width: 50px;
     height: 50px;
@@ -97,19 +71,16 @@ body {
     font-size: 24px;
 }
 
-/* Formulario */
 .seccion-formulario {
     padding: 0 30px 30px;
 }
 
-/* Título de la sección */
 .seccion-formulario h2 {
     margin-bottom: 25px;
     font-size: 32px;
     color: #1f2937;
 }
 
-/* Etiquetas */
 .seccion-formulario label {
     display: block;
     margin-bottom: 8px;
@@ -118,7 +89,6 @@ body {
     color: #374151;
 }
 
-/* Campos de texto y select */
 .seccion-formulario input,
 .seccion-formulario select {
     width: 100%;
@@ -129,19 +99,16 @@ body {
     box-sizing: border-box;
 }
 
-/* Fila con dos campos */
 .fila-campos {
     display: flex;
     gap: 20px;
     margin-top: 10px;
 }
 
-/* Cada campo dentro de la fila */
 .campo-formulario {
     flex: 1;
 }
 
-/* Botones */
 .seccion-botones {
     display: flex;
     justify-content: space-between;
@@ -149,7 +116,6 @@ body {
     border-top: 1px solid #e5e7eb;
 }
 
-/* Botón Anterior */
 .boton-anterior {
     padding: 15px 30px;
     border: 1px solid #d1d5db;
@@ -160,7 +126,6 @@ body {
     cursor: not-allowed;
 }
 
-/* Botón Siguiente */
 .boton-siguiente {
     padding: 15px 30px;
     border: none;
@@ -171,14 +136,10 @@ body {
     cursor: pointer;
 }
 
-/* Texto inferior */
 .texto-inferior {
     text-align: center;
     padding: 20px;
     color: #6b7280;
     font-size: 14px;
-<<<<<<< HEAD
-}
-=======
+
 }   
->>>>>>> 665386cec3cc34657cea2d2053b1e861db9ba939
