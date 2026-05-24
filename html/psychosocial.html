@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Caracterización Estudiantil</title>
+
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/psychosocial.css">
+</head>
+
+<body>
+
+    <!-- Caja principal -->
+    <div class="caja-principal">
+
+        <!-- Parte superior con el título -->
+        <header class="parte-superior">
+            <a href="#" class="boton-volver">Volver</a>
+
+            <!-- Logo de AURA -->
+            <img src="/img/logo.png" alt="Logo de AURA" class="logo-aura">
+
+            <h1>Formulario de Caracterización Estudiantil</h1>
+
+        </header>
+
+
+        <section class="menu-secciones">
+
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-user"></i>
+                </div>
+                <p>Datos personales</p>
+            </div>
+
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-book-open"></i>
+                </div>
+                <p>Información académica</p>
+            </div>
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-briefcase"></i>
+                </div>
+                <p>Situación socioeconómica</p>
+            </div>
+
+            <div class="seccion-menu seccion-activa">
+                <div class="circulo-icono">
+                    <i class="bx bx-brain"></i>
+                </div>
+                <p>Aspectos psicosociales</p>
+            </div>
+
+            <div class="seccion-menu">
+                <div class="circulo-icono">
+                    <i class="bx bx-first-aid"></i>
+                </div>
+                <p>Salud y bienestar</p>
+            </div>
+
+        </section>
+
+        <!-- Formulario -->
+        <section class="seccion-formulario">
+
+            <h2>Aspectos psicosociales</h2>
+
+        
+
+            <div class="grupo">
+                <label>Nivel de satisfacción personal y social *</label>
+
+                <select>
+                    <option>Seleccione</option>
+                    <option>Muy satisfecho</option>
+                    <option>Algo satisfecho</option>
+                    <option>Neutral</option>
+                    <option>Algo insatisfecho</option>
+                    <option>Muy insatisfecho</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <label>Relaciones familiares y con compañeros *</label>
+
+                <select>
+                    <option>Seleccione</option>
+                    <option>Muy buena</option>
+                    <option>Buena</option>
+                    <option>Regular</option>
+                    <option>Conflictiva</option>
+                    <option>Muy conflictivas</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <label>Manejo del estrés o ansiedad *</label>
+
+                <select>
+                    <option>Seleccione</option>
+                    <option>Manejo adecuado (pocas dificultades)</option>
+                    <option>Manejo regular (a veces se complica)</option>
+                    <option>Manejo deficiente (frecuentes dificultades)</option>
+                    <option>No sabe cómo manejarlo</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <label>Apoyo emocional disponible *</label>
+
+                <select>
+                    <option>Seleccione</option>
+                    <option>Familia cercana</option>
+                    <option>Amigos</option>
+                    <option>Compañeros de estudio</option>
+                    <option>Institución educativa (orientador, psicólogo)</option>
+                    <option>No cuenta con apoyo emocional</option>
+                </select>
+            </div>
+
+            
+        </section>
+        
+        <section class="seccion-botones">
+            <button class="boton-anterior" onclick="location.href='socioeconomic.html'">Anterior</button>
+            <button class="boton-siguiente" onclick="location.href='health.html'">Siguiente</button>
+        </section>
+    </div>
+
+</body>
+
+</html>

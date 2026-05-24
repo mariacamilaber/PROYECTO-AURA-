@@ -5,53 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Caracterización Estudiantil</title>
-
-
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="../css/personales.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/data.css">
 </head>
 
 <body>
-
     <!-- Caja principal -->
     <div class="caja-principal">
-
         <!-- Parte superior con el título -->
         <header class="parte-superior">
-            <a href="#" class="boton-volver">← Volver</a>
-
+             <a href="#" class="boton-volver">Volver</a>
             <!-- Logo de AURA -->
             <img src="../img/logo.png" alt="Logo de AURA" class="logo-aura">
-
             <h1>Formulario de Caracterización Estudiantil</h1>
-
         </header>
 
-
         <section class="menu-secciones">
-
-
             <div class="seccion-menu seccion-activa">
                 <div class="circulo-icono">
                     <i class="bx bx-user"></i>
                 </div>
-                <p>Datos Personales</p>
+                <p>Datos personales</p>
             </div>
-
 
             <div class="seccion-menu">
                 <div class="circulo-icono">
                     <i class="bx bx-book-open"></i>
                 </div>
-                <p>Información Académica</p>
+                <p>Información académica</p>
             </div>
 
             <div class="seccion-menu">
                 <div class="circulo-icono">
                     <i class="bx bx-briefcase"></i>
                 </div>
-                <p>Situación Socioeconómica</p>
+                <p>Situación socioeconómica</p>
             </div>
 
             <div class="seccion-menu">
@@ -65,7 +53,7 @@
                 <div class="circulo-icono">
                     <i class="bx bx-first-aid"></i>
                 </div>
-                <p>Salud y Bienestar</p>
+                <p>Salud y bienestar</p>
             </div>
 
         </section>
@@ -73,14 +61,14 @@
         <!-- Formulario -->
         <section class="seccion-formulario">
 
-            <h2>Datos Personales</h2>
+            <h2>Datos personales</h2>
 
 
-            <label for="nombre">Nombre Completo *</label>
+            <label for="nombre">Nombre completo *</label>
             <input type="text" id="nombre" placeholder="Ingrese su nombre completo">
 
 
-            <label for="identificacion">Número de Identificación *</label>
+            <label for="identificacion">Número de identificación *</label>
             <input type="text" id="identificacion" placeholder="Ingrese su número de identificación">
 
 
@@ -100,19 +88,15 @@
                         <option>Otro</option>
                     </select>
                 </div>
-
             </div>
-
         </section>
 
         <!-- Botones de navegación -->
         <section class="seccion-botones">
             <button class="boton-anterior" onclick="location.href='login.html'">Anterior</button>
-            <button class="boton-siguiente" onclick="location.href='Académica.html'">Siguiente</button>
+            <button class="boton-siguiente" onclick="location.href='academy.html'">Siguiente</button>
         </section>
-
-
-
+    </div>
 </body>
 
 </html>

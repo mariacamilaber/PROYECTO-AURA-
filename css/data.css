@@ -1,9 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
     background-color: #f5f5f5;
     margin: 0;
     padding: 30px;
 }
+
 .caja-principal {
     max-width: 1200px;
     margin: auto;
@@ -12,12 +14,16 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+
 .parte-superior {
-    background: linear-gradient(to right,#c9beff);
+    background: linear-gradient(to right, #E7D2FC);
     color: black;
     padding: 25px 30px;
     text-align: center;
+    position: relative; 
 }
+
+
 .boton-volver {
     color: #240520;
     text-decoration: none;
@@ -26,7 +32,7 @@ body {
 }
 
 .logo-aura {
-    width: 250px;
+    width: 80px;
     display: block;
     margin: 10px auto 20px auto;
 }
@@ -35,6 +41,7 @@ body {
     margin: 0;
     font-size: 42px;
 }
+
 
 .parte-superior p {
     margin-top: 10px;
@@ -56,7 +63,7 @@ body {
 }
 
 .seccion-activa {
-    color: #4f46e5;
+    color: #7c52cc;
 }
 
 .circulo-icono {
@@ -116,6 +123,20 @@ body {
     border-top: 1px solid #e5e7eb;
 }
 
+.boton-volver {
+    padding: 15px 30px;
+    border: none;
+    background-color: #7c52cc;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .boton-anterior {
     padding: 15px 30px;
     border: 1px solid #d1d5db;
@@ -129,7 +150,7 @@ body {
 .boton-siguiente {
     padding: 15px 30px;
     border: none;
-    background-color: #4f46e5;
+    background-color: #7c52cc;
     color: white;
     border-radius: 10px;
     font-size: 18px;
@@ -142,4 +163,4 @@ body {
     color: #6b7280;
     font-size: 14px;
 
-}   
+}
