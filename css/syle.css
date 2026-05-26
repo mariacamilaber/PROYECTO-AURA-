@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: rgb(0, 0, 0);
 }
 
@@ -164,4 +164,79 @@ body {
     margin-bottom: 8px;
     line-height: 1.5;
     color: #444;
+}
+
+@media (max-width: 1024px) {
+
+    .container-info {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .information {
+        border-radius: 20px;
+    }
+
+    .card-information {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    .info-section {
+        margin-right: 0;
+        padding: 0 20px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 16px;
+        align-items: flex-start;
+    }
+
+    .container-info {
+        flex-direction: column;
+        min-height: auto;
+        gap: 16px;
+    }
+
+    .information {
+        padding: 24px 20px;
+        border-radius: 16px;
+    }
+
+    .info-childs img {
+        max-width: 160px;
+        max-height: 160px;
+    }
+
+    .info-childs h1 {
+        font-size: 28px;
+    }
+
+    .info-childs h2 {
+        font-size: 22px;
+    }
+
+    .info-childs p {
+        font-size: 14px;
+    }
+
+    .card-information {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 0 16px;
+    }
+
+    .info-section {
+        margin-right: 0;
+        padding: 0 16px 16px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
 }

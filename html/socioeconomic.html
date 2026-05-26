@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Caracterización Estudiantil</title>
-
+ 
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
+ 
     <link rel="stylesheet" href="/css/socioeconomic.css">
 </head>
-
+ 
 <body>
     <!-- Caja principal -->
     <div class="caja-principal">
-
+ 
         <!-- Parte superior con el título -->
         <header class="parte-superior">
-            <a href="#" class="boton-volver">Volver</a>
-
+            <a href="academy.html" class="boton-volver">← Volver</a>
+ 
             <!-- Logo de AURA -->
             <img src="/img/logo.png" alt="Logo de AURA" class="logo-aura">
-
+ 
             <h1>Formulario de Caracterización Estudiantil</h1>
-
+ 
         </header>
+ 
         <section class="menu-secciones">
             <div class="seccion-menu">
                 <div class="circulo-icono">
@@ -50,105 +51,101 @@
                 </div>
                 <p>Aspectos psicosociales</p>
             </div>
-            <div class="seccion-menu ">
+            <div class="seccion-menu">
                 <div class="circulo-icono">
                     <i class="bx bx-first-aid"></i>
                 </div>
                 <p>Salud y bienestar</p>
             </div>
         </section>
-
+ 
         <!-- Formulario -->
-        <section class="seccion-formulario">
-
-            <h2>Situación socioeconómica</h2>
-
-        
-
-            <div class="grupo">
-                <label>Estrato socioeconómico *</label>
-
-                <select>
-                    <option>Seleccione</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                </select>
-            </div>
-
-            <div class="grupo">
-                <label>Ocupación del estudiante (si trabaja) *</label>
-                <!--<input type="text" placeholder="Ej: Ingeniero, Docente, etc.">   Con esto se pone un mensaje en la casilla-->
-                <select>
-                    <option>Seleccione</option>
-                    <option>Trabajo de tiempo completo</option>
-                    <option>Trabajo de medio tiempo</option>
-                    <option>Independiente / Freelance</option>
-                    <option>Solamente estudiante</option>
-                    <option>Prácticas / Pasantía</option>
-                    <option>Emprendedor</option>
-                </select>
-            </div>
-
-            <div class="campo-formulario">
-                <label for="Economico">Ingresos familiares aproximados *</label>
-                <select id="Economico">
-                    <option>Seleccione</option>
-                    <option>Menos de 1 SMMLV</option>
-                    <option>Entre 1 y 2 SMMLV</option>
-                    <option>Entre 2 y 4 SMMLV</option>
-                    <option>Más de 4 SMMLV</option>
-                </select>
-            </div>
-            <div class="grupo">
-                <label>Personas a cargo o dependientes *</label>
-
-                <select>
-                    <option>Seleccione</option>
-                    <option>Ninguna</option>
-                    <option>1 persona</option>
-                    <option>2 personas</option>
-                    <option>3 personas</option>
-                    <option>Más de 3 personas</option>
-                </select>
-            </div>
-
-            <div class="grupo">
-                <label>Tipo de vivienda *</label>
-
-                <select>
-                    <option>Seleccione</option>
-                    <option>Propia</option>
-                    <option>Arrendada</option>
-                    <option>Familiar / Compartida</option>
-                    <option>Otra</option>
-                </select>
-            </div>
-
-            <div class="grupo">
-                <label>Dispositivos móviles *</label>
-
-                <select>
-                    <option>Seleccione</option>
-                    <option>Computador personal</option>
-                    <option>Teléfono inteligente (smartphone)</option>
-                    <option>Tablet personal</option>
-                    <option>Otra</option>
-                </select>
-            </div>
-
-            
-        </section>
-        
-        <section class="seccion-botones">
-            <button class="boton-anterior" onclick="location.href='academy.html'">Anterior</button>
-            <button class="boton-siguiente" onclick="location.href='psychosocial.html'">Siguiente</button>
-        </section>
+        <form action="psychosocial.html">
+            <section class="seccion-formulario">
+ 
+                <h2>Situación socioeconómica</h2>
+ 
+                <div class="grupo">
+                    <label>Estrato socioeconómico *</label>
+                    <select required>
+                        <option value="">Seleccione</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+ 
+                <div class="grupo">
+                    <label>Ocupación del estudiante (si trabaja) *</label>
+                    <select required>
+                        <option value="">Seleccione</option>
+                        <option>Trabajo de tiempo completo</option>
+                        <option>Trabajo de medio tiempo</option>
+                        <option>Independiente / Freelance</option>
+                        <option>Solamente estudiante</option>
+                        <option>Prácticas / Pasantía</option>
+                        <option>Emprendedor</option>
+                    </select>
+                </div>
+ 
+                <div class="campo-formulario">
+                    <label for="Economico">Ingresos familiares aproximados *</label>
+                    <select id="Economico" required>
+                        <option value="">Seleccione</option>
+                        <option>Menos de 1 SMMLV</option>
+                        <option>Entre 1 y 2 SMMLV</option>
+                        <option>Entre 2 y 4 SMMLV</option>
+                        <option>Más de 4 SMMLV</option>
+                    </select>
+                </div>
+ 
+                <div class="grupo">
+                    <label>Personas a cargo o dependientes *</label>
+                    <select required>
+                        <option value="">Seleccione</option>
+                        <option>Ninguna</option>
+                        <option>1 persona</option>
+                        <option>2 personas</option>
+                        <option>3 personas</option>
+                        <option>Más de 3 personas</option>
+                    </select>
+                </div>
+ 
+                <div class="grupo">
+                    <label>Tipo de vivienda *</label>
+                    <select required>
+                        <option value="">Seleccione</option>
+                        <option>Propia</option>
+                        <option>Arrendada</option>
+                        <option>Familiar / Compartida</option>
+                        <option>Otra</option>
+                    </select>
+                </div>
+ 
+                <div class="grupo">
+                    <label>Dispositivos móviles *</label>
+                    <select required>
+                        <option value="">Seleccione</option>
+                        <option>Computador personal</option>
+                        <option>Teléfono inteligente (smartphone)</option>
+                        <option>Tablet personal</option>
+                        <option>Otra</option>
+                    </select>
+                </div>
+ 
+            </section>
+ 
+            <section class="seccion-botones">
+                <button type="button" class="boton-anterior" onclick="location.href='academy.html'">Anterior</button>
+                <button type="submit" class="boton-siguiente">Siguiente</button>
+            </section>
+        </form>
+ 
     </div>
-
 </body>
-
+ 
 </html>
+ 

@@ -1,40 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Login - AURA</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/login.css">
 </head>
 
 <body>
   <div class="contenedor">
+
     <!-- Panel izquierdo -->
     <div class="panel-login">
       <img src="../img/logo.png" alt="Logo AURA">
-      <form class="formulario-login">
+
+      <!-- Bienvenida -->
+      <div class="bienvenida">
+        <h2>Bienvenido</h2>
+        <p>Selecciona tu perfil e ingresa tus credenciales para continuar.</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button class="tab tab-activo">
+          <i class='bx bx-user'></i> Estudiante
+        </button>
+        <button class="tab" onclick="location.href='admin.html'">
+          <i class='bx bx-shield-quarter'></i> Administrador
+        </button>
+      </div>
+
+      <!-- Formulario --> JUAN DAVID
+      <form class="formulario-login" action="data.html">
+
         <label for="correo">Correo electrónico</label>
-        <input type="email" id="correo" placeholder="tucorreo@ejemplo.com">
+        <input type="email" id="correo"
+               placeholder="tucorreo@ejemplo.com"
+               required>
+
         <div class="encabezado-password">
           <label for="password">Contraseña</label>
           <a href="#">¿Olvidaste tu contraseña?</a>
         </div>
-        <input type="password" id="password" placeholder="Ingresa 5 caracteres o más">
+        <input type="password" id="password"
+               placeholder="Ingresa 5 caracteres o más"
+               minlength="5"
+               required>
 
         <div class="recordarme">
           <input type="checkbox" id="recordar">
           <label for="recordar">Recordarme</label>
         </div>
+
         <button type="submit">INICIAR SESIÓN</button>
+
       </form>
     </div>
 
     <!-- Panel derecho -->
     <div class="panel-bienvenida">
-      <img src="../img/Gemini_Generated_Image_du6j5fdu6j5fdu6j.png" alt="logo">
+      <img src="../img/Gemini_Generated_Image_du6j5fdu6j5fdu6j.png" alt="imagen">
     </div>
-  </div>
+
   </div>
 </body>
+
 </html>

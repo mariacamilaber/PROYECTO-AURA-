@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administrador - AURA</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+ 
+<body>
+ 
+    <div class="caja-principal">
+ 
+        <!-- Header -->
+        <header class="parte-superior">
+            <div class="header-izq">
+                <img src="/img/logo.png" alt="Logo de AURA" class="logo-aura">
+                <div class="header-texto">
+                    <h1>Panel de Administrador</h1>
+                    <p>Bienvenido</p>
+                </div>
+            </div>
+            <a href="login.html" class="boton-volver">← Volver</a>
+        </header>
+ 
+        <!-- Contenido en dos columnas -->
+        <div class="contenido">
+ 
+            <!-- Panel izquierdo — estadísticas -->
+            <div class="panel-izq">
+                <h3>Resumen</h3>
+ 
+                <div class="stat-card">
+                    <div class="stat-icono total"><i class='bx bx-group'></i></div>
+                    <div class="stat-info">
+                        <p>5</p>
+                        <span>Total estudiantes</span>
+                    </div>
+                </div>
+ 
+                <div class="stat-card">
+                    <div class="stat-icono alto"><i class='bx bx-error'></i></div>
+                    <div class="stat-info">
+                        <p>2</p>
+                        <span>Riesgo Alto</span>
+                    </div>
+                </div>
+ 
+                <div class="stat-card">
+                    <div class="stat-icono medio"><i class='bx bx-minus-circle'></i></div>
+                    <div class="stat-info">
+                        <p>2</p>
+                        <span>Riesgo Medio</span>
+                    </div>
+                </div>
+ 
+                <div class="stat-card">
+                    <div class="stat-icono bajo"><i class='bx bx-check-circle'></i></div>
+                    <div class="stat-info">
+                        <p>1</p>
+                        <span>Riesgo Bajo</span>
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- Panel derecho — tabla -->
+            <div class="panel-der">
+                <h2>Perfiles estudiantiles</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Programa</th>
+                            <th>Promedio</th>
+                            <th>Estrato</th>
+                            <th>Riesgo</th>
+                            <th>Factores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maria Camila</td>
+                            <td>Derecho</td>
+                            <td>2.9</td>
+                            <td>1</td>
+                            <td><span class="badge badge-alto">ALTO</span></td>
+                            <td>
+                                <div class="factores">
+                                    <span class="factor-tag">Académico</span>
+                                    <span class="factor-tag">Financiero</span>
+                                    <span class="factor-tag">Salud</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Juan Pérez</td>
+                            <td>Ingeniería</td>
+                            <td>3.5</td>
+                            <td>2</td>
+                            <td><span class="badge badge-medio">MEDIO</span></td>
+                            <td>
+                                <div class="factores">
+                                    <span class="factor-tag">Financiero</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Laura García</td>
+                            <td>Psicología</td>
+                            <td>2.5</td>
+                            <td>3</td>
+                            <td><span class="badge badge-medio">MEDIO</span></td>
+                            <td>
+                                <div class="factores">
+                                    <span class="factor-tag">Académico</span>
+                                    <span class="factor-tag">Psicosocial</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Carlos López</td>
+                            <td>Administración</td>
+                            <td>2.0</td>
+                            <td>1</td>
+                            <td><span class="badge badge-alto">ALTO</span></td>
+                            <td>
+                                <div class="factores">
+                                    <span class="factor-tag">Académico</span>
+                                    <span class="factor-tag">Financiero</span>
+                                    <span class="factor-tag">Psicosocial</span>
+                                    <span class="factor-tag">Salud</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sofía Martínez</td>
+                            <td>Medicina</td>
+                            <td>4.2</td>
+                            <td>4</td>
+                            <td><span class="badge badge-bajo">BAJO</span></td>
+                            <td>
+                                <div class="factores">
+                                    <span class="factor-tag">Sin riesgos</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+ 
+        </div>
+ 
+    </div>
+ 
+</body>
+ 
+</html>

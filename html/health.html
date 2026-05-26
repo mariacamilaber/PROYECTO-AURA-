@@ -1,132 +1,120 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+<html lang="es">
+ 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Caracterización Estudiantil</title>
-
-
+ 
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="/css/health.css">
 </head>
-
+ 
 <body>
-
+ 
     <!-- Caja principal -->
     <div class="caja-principal">
-
+ 
         <!-- Parte superior con el título -->
         <header class="parte-superior">
-            <a href="#" class="boton-volver">Volver</a>
-
+            <a href="psychosocial.html" class="boton-volver">← Volver</a>
+ 
             <!-- Logo de AURA -->
             <img src="/img/logo.png" alt="Logo de AURA" class="logo-aura">
-
+ 
             <h1>Formulario de Caracterización Estudiantil</h1>
-
+ 
         </header>
-
-
+ 
         <section class="menu-secciones">
-
-
             <div class="seccion-menu">
                 <div class="circulo-icono">
                     <i class="bx bx-user"></i>
                 </div>
                 <p>Datos personales</p>
             </div>
-
-
             <div class="seccion-menu">
                 <div class="circulo-icono">
                     <i class="bx bx-book-open"></i>
                 </div>
                 <p>Información académica</p>
             </div>
-
             <div class="seccion-menu">
                 <div class="circulo-icono">
                     <i class="bx bx-briefcase"></i>
                 </div>
                 <p>Situación socioeconómica</p>
             </div>
-
             <div class="seccion-menu">
                 <div class="circulo-icono">
                     <i class="bx bx-brain"></i>
                 </div>
                 <p>Aspectos psicosociales</p>
             </div>
-
             <div class="seccion-menu seccion-activa">
                 <div class="circulo-icono">
                     <i class="bx bx-first-aid"></i>
                 </div>
                 <p>Salud y bienestar</p>
             </div>
-
         </section>
-
-        <!-- Formulario -->
-        <section class="seccion-formulario">
-
-            <h2>Salud y Bienestar</h2>
-            <div class="grupo">
-                        <label>Estado de salud general *</label>
-
-                        <select>
-                            <option>Seleccione</option>
-                            <option>Excelente</option>
-                            <option>Buena</option>
-                            <option>Regular</option>
-                            <option>Mala</option>
-                        </select>
-                    </div>
-
-                    <div class="grupo">
-                        <label>Enfermedades o condiciones médicas relevantes *</label>
-                                                
-                        <select>
-                            <option>Seleccione</option>
-                            <option>Ninguna</option>
-                            <option>Hipertensión</option>
-                            <option>Diabetes</option>
-                            <option>Alergias</option>
-                            <option>Otras</option>
-                        </select>
-                    </div>
-
+ 
+        <!-- Formulario --> JUAN DAVID
+        <form action="confirmation.html">
+            <section class="seccion-formulario">
+ 
+                <h2>Salud y Bienestar</h2>
+ 
+                <div class="grupo">
+                    <label>Estado de salud general *</label>
+                    <select required>
+                        <option value="">Seleccione</option>
+                        <option>Excelente</option>
+                        <option>Buena</option>
+                        <option>Regular</option>
+                        <option>Mala</option>
+                    </select>
+                </div>
+ 
+                <div class="grupo">
+                    <label>Enfermedades o condiciones médicas relevantes *</label>
+                    <select required>
+                        <option value="">Seleccione</option>
+                        <option>Ninguna</option>
+                        <option>Hipertensión</option>
+                        <option>Diabetes</option>
+                        <option>Alergias</option>
+                        <option>Otras</option>
+                    </select>
+                </div>
+ 
                 <div class="campo-formulario">
-                    <label for="Actividad">Actividad física o deporte practicado*</label>
-
-                    <select id="Actividad">
-                        <option>Seleccione</option>
+                    <label for="Actividad">Actividad física o deporte practicado *</label>
+                    <select id="Actividad" required>
+                        <option value="">Seleccione</option>
                         <option>No realiza actividad física</option>
-                        <option>Ejercicio moderado (2–3 veces por semana) </option>
+                        <option>Ejercicio moderado (2–3 veces por semana)</option>
                         <option>Ejercicio intenso (más de 4 veces por semana)</option>
                         <option>Deporte competitivo</option>
                     </select>
-                    </div>
-
+                </div>
+ 
                 <div class="grupo">
                     <label>Hábitos alimenticios y de sueño *</label>
-
-                    <select>
-                        <option>Seleccione</option>
+                    <select required>
+                        <option value="">Seleccione</option>
                         <option>Alimentación balanceada y sueño regular</option>
                         <option>Alimentación irregular y sueño insuficiente</option>
                         <option>Alimentación adecuada pero sueño irregular</option>
                         <option>Alimentación deficiente y sueño irregular</option>
                     </select>
                 </div>
-
+ 
                 <div class="grupo">
                     <label>Acceso a servicios médicos o psicológicos *</label>
-
-                    <select>
-                        <option>Seleccione</option>
+                    <select required>
+                        <option value="">Seleccione</option>
                         <option>Seguro de salud / EPS activa</option>
                         <option>Servicios médicos institucionales (universidad, empresa)</option>
                         <option>Atención médica privada</option>
@@ -135,15 +123,16 @@
                         <option>No tiene acceso a servicios médicos o psicológicos</option>
                     </select>
                 </div>
-
-                
+ 
             </section>
-            
+ 
             <section class="seccion-botones">
-                <button class="boton-anterior" onclick="location.href='psychosocial.html'">Anterior</button>
-                <button class="boton-siguiente" onclick="location.href='Enviar.html'">Enviar</button>
+                <button type="button" class="boton-anterior" onclick="location.href='psychosocial.html'">Anterior</button>
+                <button type="submit" class="boton-siguiente">Enviar</button>
             </section>
-        </div>
+        </form>
+ 
+    </div>
 </body>
-
+ 
 </html>

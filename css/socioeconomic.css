@@ -173,3 +173,84 @@ body {
     font-size: 14px;
 
 }
+
+
+@media (max-width: 1024px) {
+
+    .parte-superior h1 {
+        font-size: 32px;
+    }
+
+    .seccion-formulario h2 {
+        font-size: 26px;
+    }
+
+    .seccion-formulario input,
+    .seccion-formulario select {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 16px;
+    }
+
+    .parte-superior {
+        padding: 60px 20px 20px;
+    }
+
+    .parte-superior h1 {
+        font-size: 22px;
+    }
+
+    .logo-aura {
+        width: 60px;
+        margin: 0 auto 10px;
+    }
+
+    .menu-secciones {
+        padding: 16px 10px;
+        gap: 4px;
+    }
+
+    .seccion-menu {
+        font-size: 10px;
+    }
+
+    .circulo-icono {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .seccion-formulario {
+        padding: 0 16px 24px;
+    }
+
+    .seccion-formulario h2 {
+        font-size: 22px;
+    }
+
+    .seccion-formulario input,
+    .seccion-formulario select {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .fila-campos {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .seccion-botones {
+        padding: 16px;
+    }
+
+    .boton-anterior,
+    .boton-siguiente {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}
