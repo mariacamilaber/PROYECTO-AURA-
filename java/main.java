@@ -24,7 +24,6 @@ public class main {
 
         int i = 0;
 
-        // Datos personales
         System.out.println("\n--- DATOS PERSONALES ---");
         System.out.print("Nombre completo: ");
         nombres[i] = scanner.nextLine();
@@ -36,7 +35,7 @@ public class main {
         System.out.print("Genero (Masculino/Femenino/Otro): ");
         generos[i] = scanner.nextLine();
 
-        // Datos academicos
+        
         System.out.println("\n--- INFORMACION ACADEMICA ---");
         System.out.print("Programa academico: ");
         programas[i] = scanner.nextLine();
@@ -47,18 +46,18 @@ public class main {
         promedios[i] = scanner.nextDouble();
         scanner.nextLine();
 
-        // Datos socioeconomicos
+      
         System.out.println("\n--- SITUACION SOCIOECONOMICA ---");
         System.out.print("Estrato (1-6): ");
         estratos[i] = scanner.nextInt();
         scanner.nextLine();
 
-        // Datos psicosociales
+        
         System.out.println("\n--- ASPECTOS PSICOSOCIALES ---");
         System.out.print("Nivel de satisfaccion (Alto/Medio/Bajo): ");
         nivelSatisfaccion[i] = scanner.nextLine();
 
-        // Salud
+      
         System.out.println("\n--- SALUD Y BIENESTAR ---");
         System.out.print("Estado de salud (Excelente/Buena/Regular/Mala): ");
         estadoSalud[i] = scanner.nextLine();
@@ -78,7 +77,7 @@ public class main {
         System.out.println("Satisfaccion  : " + nivelSatisfaccion[i]);
         System.out.println("Salud         : " + estadoSalud[i]);
 
-        // RF07 - Analisis de riesgo
+        //  Analisis de riesgo
         System.out.println("\n=================================");
         System.out.println("  ANALISIS DE RIESGO");
         System.out.println("=================================");
